@@ -145,7 +145,7 @@ a{
 .hamburger{
     display: none;
 }
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 1000px){
     .hamburger {
         display: block;
         border: 0;
@@ -188,14 +188,13 @@ a{
         font-size: 24px;
         margin-left: -50px;
 
-    }
-}
-@media(min-width:751px) and (max-width:999px){
-    .project-container{
+    }.project-container{
         display: grid;
         grid-template-columns:1fr 1fr  ;
     }
 }
+
+
 
 
     
